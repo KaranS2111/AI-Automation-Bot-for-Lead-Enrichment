@@ -12,7 +12,7 @@ from typing import Dict, List, Optional, Tuple
 import os
 from dataclasses import dataclass
 
-# Configure logging
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
